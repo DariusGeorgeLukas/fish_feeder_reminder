@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "msp430",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/ti/msp430-gcc/include/**"
+                ,"~/projects/gitHub/micro_CAC/**"
+                ,"~/ti/msp430-gcc/bin/msp430-elf-gcc/include/**"
+            ],
+            "defines": [
+                "__MSP430FR2433__"
+            ],
+            "macFrameworkPath": [],
+            "compilerPath": "~/ti/msp430-gcc/bin/msp430-elf-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-gcc-x64",
+            "compilerArgs": []
+        }
+    ],
+    "version": 4
+}
